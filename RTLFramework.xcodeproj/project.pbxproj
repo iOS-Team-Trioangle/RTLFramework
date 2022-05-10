@@ -9,16 +9,12 @@
 /* Begin PBXBuildFile section */
 		D1E17F0B282A77B500CE34B5 /* RTLFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = D1E17F0A282A77B500CE34B5 /* RTLFramework.docc */; };
 		D1E17F0C282A77B500CE34B5 /* RTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E17F09282A77B500CE34B5 /* RTLFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1E17F14282A77DD00CE34B5 /* Spanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E17F12282A77DD00CE34B5 /* Spanish.swift */; };
-		D1E17F15282A77DD00CE34B5 /* Arabic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E17F13282A77DD00CE34B5 /* Arabic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1E17F06282A77B500CE34B5 /* RTLFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTLFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E17F09282A77B500CE34B5 /* RTLFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTLFramework.h; sourceTree = "<group>"; };
 		D1E17F0A282A77B500CE34B5 /* RTLFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RTLFramework.docc; sourceTree = "<group>"; };
-		D1E17F12282A77DD00CE34B5 /* Spanish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spanish.swift; sourceTree = "<group>"; };
-		D1E17F13282A77DD00CE34B5 /* Arabic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arabic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				D1E17F09282A77B500CE34B5 /* RTLFramework.h */,
-				D1E17F13282A77DD00CE34B5 /* Arabic.swift */,
-				D1E17F12282A77DD00CE34B5 /* Spanish.swift */,
 				D1E17F0A282A77B500CE34B5 /* RTLFramework.docc */,
 			);
 			path = RTLFramework;
@@ -138,8 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E17F14282A77DD00CE34B5 /* Spanish.swift in Sources */,
-				D1E17F15282A77DD00CE34B5 /* Arabic.swift in Sources */,
 				D1E17F0B282A77B500CE34B5 /* RTLFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
