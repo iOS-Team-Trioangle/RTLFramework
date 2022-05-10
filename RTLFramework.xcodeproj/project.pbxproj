@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		D1E17F0B282A77B500CE34B5 /* RTLFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = D1E17F0A282A77B500CE34B5 /* RTLFramework.docc */; };
 		D1E17F0C282A77B500CE34B5 /* RTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E17F09282A77B500CE34B5 /* RTLFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E17F17282A81E900CE34B5 /* RTLFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D1E17F16282A81E900CE34B5 /* RTLFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1E17F06282A77B500CE34B5 /* RTLFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTLFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E17F09282A77B500CE34B5 /* RTLFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTLFramework.h; sourceTree = "<group>"; };
 		D1E17F0A282A77B500CE34B5 /* RTLFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RTLFramework.docc; sourceTree = "<group>"; };
+		D1E17F16282A81E900CE34B5 /* RTLFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RTLFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 		D1E17EFC282A77B500CE34B5 = {
 			isa = PBXGroup;
 			children = (
+				D1E17F16282A81E900CE34B5 /* RTLFramework.podspec */,
 				D1E17F08282A77B500CE34B5 /* RTLFramework */,
 				D1E17F07282A77B500CE34B5 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E17F17282A81E900CE34B5 /* RTLFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
